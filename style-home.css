@@ -1,0 +1,14 @@
+.dadosPessoais{
+	background: #CCCCCC;
+	padding: 30px;
+}
+.tituloPessoal {
+	padding-left: 20px;
+}
+.itens {
+	font-style: italic
+}
+.dadosProficionais {
+	background: #FFFFFF;
+	padding: 20px;
+}

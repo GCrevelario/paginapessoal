@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="image/icon.png	" type="image/x-icon" />
+		<title>Guilherme Crevelario</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="image/DSC04000.jpg" width="300px"></h1>
+				<nav>
+		  			<ul>
+		  				<li><a href="index.html">Home</a></li>
+			   			
+		 			</ul>
+				</nav>
+			</div>
+		</header>
+		<main id="mainContato">
+			<section id= "dadosPessoais" class="dadosPessoais">
+					<h2 class="tituloPrincipal">Contato</h2>
+					<div class="conteudoPessoal">
+						<ul>
+							<li><a href="https://www.facebook.com/guilherme.crevelariolisboa">Facebook</a></li>
+							<li><a href="https://www.linkedin.com/in/guilherme-crevelario-lisboa-5a192515a">Linkedin</a></li>
+							<li>Email: guilherme.crevelario@gmail.com</li>
+						</ul>
+					</div>
+				</section>
+
+			<form>
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Motivo do Contato</legend>
+					<label for="radio-profi"><input type="radio" name="contato" value="proficional" id="radio-proficional"> Profissional</label>
+					
+					<label for="radio-pessoal"><input type="radio" name="contato" value="pessoal" id="radio-pessoal"> Pessoal</label>
+					
+					<label for="radio-outros"><input type="radio" name="contato" value="outros" id="radio-outros" checked> Outros</label>
+				</fieldset>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+
+
+		</main>
+
+
+		<footer>
+				
+			</footer>
+	</body>
+</html>

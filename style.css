@@ -1,0 +1,102 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+header {
+	background: #BBBBBB;
+	padding: 30px 0;
+}
+.caixa {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 70px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.tituloPrincipal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.dadosPessoais {
+	padding: 3em 0;
+	background: #FEFEFE;
+	margin: 0 auto;
+}
+
+.dadosPessoais p {
+	margin: 0 0 1em;
+}
+
+.dadosPessoais strong {
+	font-weight: bold;
+}
+
+.dadosPessoais em {
+	font-style: italic;
+}
+.dadosAcademicos {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+	margin: 0 auto;
+}
+
+.dadosProficionais {
+	padding: 3em 0;
+	background: #888888;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.enviar:hover {
+	background: blue;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
